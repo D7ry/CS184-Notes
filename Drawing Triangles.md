@@ -82,3 +82,6 @@ Tests all samples in block in parallel, supported by all modern GPUs through SIM
 
 ## Signal Reconstruction on Real Displays
 Assume each pixel emits a square of light that can be controlled independently.
+
+Triangles drawn are poorly approximated for smaller resolutions, this will be discussed in future notes.
+![](https://cs184.eecs.berkeley.edu/public/sp23/lectures/lec-2-digital-drawing/slides/slide-62.jpg)
