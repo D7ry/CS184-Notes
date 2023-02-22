@@ -48,3 +48,13 @@ class Transform
 
 }
 ```
+
+## Perspective Projection
+a perspective projection consists of 3 parts:
+1. view plane
+2. front clipping plane
+3. back clipping plane
+
+The area between the front and back clipping planes is called the **view volume**. For efficiency, only the view volume is rendered.
+
+### Linear Interpolation
